@@ -24,5 +24,5 @@ sb.click()
 
 page.get(getLink())
 sleep(3)
-open('creds.txt', 'w').write('Email: %s\nPassword: %s' % (tm.email, pwd))
+open('creds.txt', 'w').write('Email:\n%s\nPassword:\n%s\n' % (tm.email, pwd))
 page.quit()
